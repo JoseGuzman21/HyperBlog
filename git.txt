@@ -15,3 +15,11 @@ Host *
 	UseKeychain yes
 	IdentityFile /Users/joseguzman/.ssh/id_rsa
 4. ssh-add -K /Users/joseguzman/.ssh/id_rsa
+Luego
+1. git remote -v
+2. git remote set-url origin git@github.com:JoseGuzman21/HyperBlog.git (aqui va la url del git de shh)
+3. git pull 
+4. git pull origin master 
+5. git commit -am "blablabla"
+6. git pull origin master
+7. git push origin master
