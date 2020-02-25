@@ -3,8 +3,15 @@ Bajar un repositorio
 2. git remote -v (nos muestra el origin)
 3. git push origin master 
 4. git pull origin master
-5. git pull master --allow-unrelated-histories (solo cuando sale error)
+5. git pull origin master --allow-unrelated-histories (solo cuando sale error)
 4. git pull origin master
+En caso de que salgo algún error en el merge:
+1. git merge --abort
+para crear ramas se hace:
+1. git branch ... (con ese comando se crea una rama)
+2. git checkout ... (con este comando ingresas a la rama)
+3. para hacer la fusion, se hace en el  master con el siguiente comando:
+4. git merge y el nombre de la rama
 
 Generar llave shh (todo esto se hace en el home "cd .")
 1. ssh-keygen -t rsa -b 4096 -C "joseguzman@upeu.edu.pe(aqui va el correo de GitHub)"
